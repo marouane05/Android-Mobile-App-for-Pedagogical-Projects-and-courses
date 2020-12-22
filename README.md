@@ -32,12 +32,7 @@ password : este2020
     Après le téléchargement de ces fichiers, configurer le projet Android à partir le fichier conf.kt en mettant votre adresse réseau IPv4 et se connecter l'ordinateur et le téléphone avec le meme réseau Wifi , si un problème recu il faut configurer votre serveur Wamp ou Xamp ... pour qu'il donne la possibilité d'accés à partir une autre machine sur le méme réseau. 
     
 ****************************************************************************************************************************************          
-5. Pour plus d'informations sur l'application consulter le fichier ( Dryouch Marouane Cahier des charges.dotx )         
+5. Pour plus d'informations sur l'application consulter le fichier ( Dryouch Marouane Cahier des charges.dotx / pdf)         
            
 -----------------------------------------
--Titre: ... pour la gestion des cours et des projets pédagogiques
--Page3 remplacer  dans tous les phrases et meme dans tout le rapport le mot on par nous (exemple : nous allons réaliser 
--Page 6: unifier ( commencer toujours par majuscule)
--Erreurs Dans tous les diagramme use case ( problème des relations entre les cas d'utilisation)
-Il faut faire la difference entrev heritage inclusion et extention
-- il faut refourmuler tes phrases plein de fautes d'expressions et de frappe ( consacre plus de temps a la rédactiion)
+
