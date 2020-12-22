@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.gestiondesprojetspdagogiques">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+
+            android:allowBackup="true"
+
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            android:usesCleartextTraffic="true"
+
+
+
+    >
+        <activity android:name=".DescriptifModule"
+                  >
+        </activity>
+        <activity android:name=".WatchCours">
+        </activity>
+        <activity android:name=".CoursDetail">
+        </activity>
+        <activity android:name=".Cours">
+        </activity>
+        <activity android:name=".ProfileEtudiant">
+        </activity>
+        <activity android:name=".AjoutCours">
+        </activity>
+        <activity android:name=".GenerationProjet">
+        </activity>
+        <activity android:name=".ProjetAttente">
+        </activity>
+        <activity android:name=".RemerciementProf">
+        </activity>
+        <activity android:name=".ModuleDetail">
+        </activity>
+        <activity android:name=".FinAffectation">
+        </activity>
+        <activity android:name=".AffecteModule">
+        </activity>
+        <activity android:name=".Notification">
+        </activity>
+        <activity android:name=".DetailProjet">
+        </activity>
+        <activity android:name=".FinProjet">
+        </activity>
+        <activity android:name=".ValidProjet">
+        </activity>
+        <activity android:name=".ProfileAdmin">
+        </activity>
+        <activity android:name=".SemestreDutDeux">
+        </activity>
+        <activity android:name=".SemestreLicenceDeux">
+        </activity>
+        <activity android:name=".SemestreDut">
+        </activity>
+        <activity android:name=".SemestreLicence">
+        </activity>
+        <activity android:name=".Ppedagogique">
+        </activity>
+        <activity android:name=".Parametre">
+        </activity>
+        <activity android:name=".config.DetailUser">
+        </activity>
+        <activity android:name=".ProfileActivation">
+        </activity>
+        <activity android:name=".ActiverCompte">
+        </activity>
+
+        <activity
+                android:name=".ProfileActivity"
+                android:label="@string/title_activity_profile"
+                android:theme="@style/AppTheme.ProfileTheme">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

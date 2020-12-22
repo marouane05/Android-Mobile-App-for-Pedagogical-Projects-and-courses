@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+
+              android:background="@android:color/transparent"
+>
+
+
+    <!--    ***   Debut **********   -->
+
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:background="@android:color/transparent">
+
+        <TextView android:text="Module:BASE DE DONNES" android:id="@+id/nommodule" android:layout_gravity="center"
+                  android:layout_width="match_parent" android:gravity="center"
+                  android:layout_height="45dp" android:textStyle="bold|italic" android:textAllCaps="true"
+        android:textSize="18sp"/>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="32dp">
+
+        <TextView android:layout_width="match_parent" android:text="Objectifs" android:gravity="center"
+                  android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/objmodule" android:layout_gravity="center"
+                  android:layout_width="match_parent" android:gravity="center"
+                  android:layout_height="45dp"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:layout_width="match_parent" android:text="Prérequis" android:gravity="center"
+                  android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/prerequismodule" android:layout_gravity="center"
+                  android:layout_width="match_parent" android:gravity="center"
+                  android:layout_height="45dp"/>
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp">
+
+        <TextView android:id="@+id/nomelement1" android:layout_width="match_parent" android:gravity="center"
+                  android:text="Element 1 :"
+                  android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/descelem1" android:layout_gravity="center"
+                  android:layout_width="match_parent" android:gravity="center"
+                  android:text=" "
+                  android:layout_height="45dp"/>
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp">
+
+        <TextView android:id="@+id/nomelement2" android:layout_width="match_parent" android:gravity="center"
+                  android:text="Element 2:"
+                  android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/descelem2" android:layout_gravity="center"
+                  android:layout_width="match_parent" android:gravity="center"
+                  android:text=" "
+                  android:layout_height="45dp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp">
+
+        <TextView android:id="@+id/nomelement3" android:layout_width="match_parent" android:gravity="center"
+                  android:text="Element 3 :"
+                  android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/descelem3" android:layout_gravity="center"
+                  android:layout_width="match_parent" android:gravity="center"
+                  android:text=" "
+                  android:layout_height="45dp"/>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:layout_width="match_parent" android:text="Note Evaluation"
+                  android:gravity="center"
+                  android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/noteval" android:layout_gravity="center"
+                  android:layout_width="match_parent" android:gravity="center"
+                  android:layout_height="45dp"/>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:layout_width="match_parent" android:text="Note Module" android:gravity="center"
+                  android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/notemod" android:layout_gravity="center"
+                  android:layout_width="match_parent" android:gravity="center"
+                  android:layout_height="45dp"/>
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:layout_width="match_parent" android:text="NoteValidation" android:gravity="center"
+                  android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/notevalidation" android:layout_gravity="center"
+                  android:layout_width="match_parent" android:gravity="center"
+                  android:layout_height="45dp"/>
+    </LinearLayout>
+
+
+
+
+
+    <!--    ***   FIN  **********   -->
+
+</LinearLayout>

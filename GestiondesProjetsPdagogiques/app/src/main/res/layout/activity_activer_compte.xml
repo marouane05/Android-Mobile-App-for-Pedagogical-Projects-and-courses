@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        tools:context=".ActiverCompte"
+                android:background="@drawable/navbarxdd">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="42dp"
+            android:layout_height="36dp" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="310dp"
+            android:layout_marginRight="310dp" android:layout_marginBottom="1dp"
+            android:id="@+id/retour">
+    </LinearLayout>
+
+    <LinearLayout
+android:background="@drawable/whitebg"
+android:layout_marginTop="120dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+        <RelativeLayout
+                android:layout_width="238dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="62dp"
+                android:layout_marginRight="62dp"
+                android:layout_marginTop="36.7dp"
+                android:background="@drawable/blue_border_rounded_cornwe" android:layout_centerHorizontal="true">
+
+            <Spinner
+                    android:layout_width="214dp"
+                    android:layout_height="38dp" android:id="@+id/profession"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.726"
+
+                    android:prompt="@string/professionSpinner"
+                    android:entries="@array/profession"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+                android:layout_width="236dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="62dp"
+                android:layout_marginRight="62dp"
+                android:layout_marginTop="20.7dp"
+                android:background="@drawable/blue_border_rounded_cornwe">
+
+
+            <!-- INPUT -->
+            <EditText
+                    android:id="@+id/Email"
+                    android:layout_toRightOf="@+id/username_icon"
+                    android:hint="Email"
+                    android:textSize="12sp"
+                    android:paddingLeft="17dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:maxLines="1"
+                    android:inputType="textEmailAddress"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:background="@android:color/transparent"
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content" android:layout_marginLeft="9dp"/>
+
+            <!-- ICON -->
+            <ImageView
+                    android:id="@+id/username_icon"
+                    android:src="@drawable/email"
+                    android:layout_width="14.7dp"
+                    android:layout_height="10.3dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_centerVertical="true"
+            />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+                android:layout_width="246dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="62dp"
+                android:layout_marginRight="62dp"
+                android:layout_marginTop="17.7dp"
+                android:background="@drawable/blue_border_rounded_cornwe" android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true">
+
+            <!-- INPUT -->
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="10.5sp"
+                    android:textColor="#1566e0"
+                    android:layout_marginTop="12dp"
+                    android:layout_gravity="center"
+                    android:text="                                  Entrer Date de naissance"
+                    android:id="@+id/activer2"/>
+            <DatePicker
+                    android:id="@+id/naissance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="94dp"
+                    android:datePickerMode="spinner"
+                    android:calendarViewShown="false"
+                    android:layout_marginTop="36dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                    app:layout_constraintHorizontal_bias="0.521" android:layout_marginBottom="8dp"
+                    app:layout_constraintVertical_bias="1.0"
+                    android:layout_alignWithParentIfMissing="false"/>
+
+
+            <!-- ICON -->
+
+
+        </RelativeLayout>
+
+
+        <Button
+                android:id="@+id/btnCreer"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="18.7dp"
+                android:layout_marginRight="62dp"
+                android:background="@drawable/blue_fill__rounded_color"
+                android:gravity="center"
+                android:paddingTop="18dp"
+                android:paddingBottom="14dp"
+                android:text="Rechercher"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10.5sp"
+                android:textColor="#1566e0"
+                android:layout_marginTop="12dp"
+                android:layout_gravity="center"
+                android:id="@+id/activer" android:layout_centerHorizontal="true" android:text="..."/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

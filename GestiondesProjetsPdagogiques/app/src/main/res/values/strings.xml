@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Gestion des Projets Pédagogiques</string>
+    <string name="professionSpinner">Vous etes</string>
+    <string-array name="profession">
+        <item>Choisir ...</item>
+        <item>Professeur</item>
+        <item>Administrateur</item>
+        <item>Etudiant</item>
+
+    </string-array>
+
+    <string name="title_activity_profile">Profile</string>
+    <string name="action_settings">Settings</string>
+    <string name="account_info">Account Info</string>
+    <string name="d_o_b">D.O.B</string>
+    <string name="developer">developer</string>
+    <string name="mobile">Mobile</string>
+    <string name="_91_8129999999">+91-8129999999</string>
+
+    <string name="cycleSpinner"></string>
+    <string-array name="cycle">
+        <item>Choisir le cycle du formation</item>
+        <item>DUT</item>
+        <item>Lp</item>
+
+    </string-array>
+
+    <string name="LicenceSpinner"></string>
+    <string-array name="licenceSemestre">
+        <item>Choisir Semestre</item>
+        <item>Semestre 5</item>
+        <item>Semestre 6</item>
+
+    </string-array>
+
+</resources>
